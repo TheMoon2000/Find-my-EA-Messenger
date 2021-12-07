@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC6A06A51E0FAFC600687D31 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A06A41E0FAFC600687D31 /* CloseButton.swift */; };
+		CC85750B1E90D3D000DE913B /* Alert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC85750A1E90D3D000DE913B /* Alert.mp3 */; };
+		CC85750D1E91308C00DE913B /* Hex Color Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC85750C1E91308C00DE913B /* Hex Color Parser.swift */; };
+		CC9F45881E1EA23500CEA18E /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = CC9F45871E1EA23500CEA18E /* AppIcon.icns */; };
+		CC9F458C1E1FD10A00CEA18E /* AutoResizingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9F458B1E1FD10A00CEA18E /* AutoResizingTextField.swift */; };
+		CC9F458E1E1FD75400CEA18E /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9F458D1E1FD75400CEA18E /* Comment.swift */; };
+		CC9F45901E1FD76200CEA18E /* Comment.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC9F458F1E1FD76200CEA18E /* Comment.xib */; };
+		CC9F45921E207E0500CEA18E /* Comment Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9F45911E207E0500CEA18E /* Comment Struct.swift */; };
+		CC9F45981E20E11000CEA18E /* String Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9F45971E20E11000CEA18E /* String Extension.swift */; };
+		CCBB045F1E0A415C00D82EFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB045E1E0A415C00D82EFE /* AppDelegate.swift */; };
+		CCBB04611E0A415C00D82EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBB04601E0A415C00D82EFE /* Assets.xcassets */; };
+		CCBB04641E0A415C00D82EFE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCBB04621E0A415C00D82EFE /* MainMenu.xib */; };
+		CCBB046C1E0A417700D82EFE /* Terminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB046B1E0A417700D82EFE /* Terminal.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC6A06A41E0FAFC600687D31 /* CloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		CC85750A1E90D3D000DE913B /* Alert.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alert.mp3; sourceTree = "<group>"; };
+		CC85750C1E91308C00DE913B /* Hex Color Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hex Color Parser.swift"; sourceTree = "<group>"; };
+		CC9F45871E1EA23500CEA18E /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		CC9F458B1E1FD10A00CEA18E /* AutoResizingTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoResizingTextField.swift; sourceTree = "<group>"; };
+		CC9F458D1E1FD75400CEA18E /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		CC9F458F1E1FD76200CEA18E /* Comment.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Comment.xib; sourceTree = "<group>"; };
+		CC9F45911E207E0500CEA18E /* Comment Struct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Comment Struct.swift"; sourceTree = "<group>"; };
+		CC9F45971E20E11000CEA18E /* String Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String Extension.swift"; sourceTree = "<group>"; };
+		CCBB045B1E0A415C00D82EFE /* EA Center Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EA Center Messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBB045E1E0A415C00D82EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCBB04601E0A415C00D82EFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCBB04631E0A415C00D82EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CCBB04651E0A415C00D82EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCBB046B1E0A417700D82EFE /* Terminal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Terminal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCBB04581E0A415C00D82EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCBB04521E0A415C00D82EFE = {
+			isa = PBXGroup;
+			children = (
+				CCBB045D1E0A415C00D82EFE /* Find my EA Messenger */,
+				CCBB045C1E0A415C00D82EFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCBB045C1E0A415C00D82EFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCBB045B1E0A415C00D82EFE /* EA Center Messenger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCBB045D1E0A415C00D82EFE /* Find my EA Messenger */ = {
+			isa = PBXGroup;
+			children = (
+				CCBB045E1E0A415C00D82EFE /* AppDelegate.swift */,
+				CC9F45911E207E0500CEA18E /* Comment Struct.swift */,
+				CC6A06A41E0FAFC600687D31 /* CloseButton.swift */,
+				CCBB04601E0A415C00D82EFE /* Assets.xcassets */,
+				CCBB04621E0A415C00D82EFE /* MainMenu.xib */,
+				CC9F458D1E1FD75400CEA18E /* Comment.swift */,
+				CC85750C1E91308C00DE913B /* Hex Color Parser.swift */,
+				CC9F458F1E1FD76200CEA18E /* Comment.xib */,
+				CC9F45871E1EA23500CEA18E /* AppIcon.icns */,
+				CCBB046B1E0A417700D82EFE /* Terminal.swift */,
+				CCBB04651E0A415C00D82EFE /* Info.plist */,
+				CC9F45971E20E11000CEA18E /* String Extension.swift */,
+				CC9F458B1E1FD10A00CEA18E /* AutoResizingTextField.swift */,
+				CC85750A1E90D3D000DE913B /* Alert.mp3 */,
+			);
+			path = "Find my EA Messenger";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCBB045A1E0A415C00D82EFE /* EA Center Messenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBB04681E0A415C00D82EFE /* Build configuration list for PBXNativeTarget "EA Center Messenger" */;
+			buildPhases = (
+				CCBB04571E0A415C00D82EFE /* Sources */,
+				CCBB04581E0A415C00D82EFE /* Frameworks */,
+				CCBB04591E0A415C00D82EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EA Center Messenger";
+			productName = "Find my EA Messenger";
+			productReference = CCBB045B1E0A415C00D82EFE /* EA Center Messenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCBB04531E0A415C00D82EFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jerry Shan";
+				TargetAttributes = {
+					CCBB045A1E0A415C00D82EFE = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = GR353CPP2V;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = CCBB04561E0A415C00D82EFE /* Build configuration list for PBXProject "EA Center Messenger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCBB04521E0A415C00D82EFE;
+			productRefGroup = CCBB045C1E0A415C00D82EFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCBB045A1E0A415C00D82EFE /* EA Center Messenger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCBB04591E0A415C00D82EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBB04611E0A415C00D82EFE /* Assets.xcassets in Resources */,
+				CC9F45881E1EA23500CEA18E /* AppIcon.icns in Resources */,
+				CC85750B1E90D3D000DE913B /* Alert.mp3 in Resources */,
+				CCBB04641E0A415C00D82EFE /* MainMenu.xib in Resources */,
+				CC9F45901E1FD76200CEA18E /* Comment.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCBB04571E0A415C00D82EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9F458E1E1FD75400CEA18E /* Comment.swift in Sources */,
+				CC6A06A51E0FAFC600687D31 /* CloseButton.swift in Sources */,
+				CC85750D1E91308C00DE913B /* Hex Color Parser.swift in Sources */,
+				CCBB045F1E0A415C00D82EFE /* AppDelegate.swift in Sources */,
+				CCBB046C1E0A417700D82EFE /* Terminal.swift in Sources */,
+				CC9F45981E20E11000CEA18E /* String Extension.swift in Sources */,
+				CC9F458C1E1FD10A00CEA18E /* AutoResizingTextField.swift in Sources */,
+				CC9F45921E207E0500CEA18E /* Comment Struct.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCBB04621E0A415C00D82EFE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBB04631E0A415C00D82EFE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCBB04661E0A415C00D82EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCBB04671E0A415C00D82EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CCBB04691E0A415C00D82EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Find my EA Messenger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tenic.EA-Center-Messenger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CCBB046A1E0A415C00D82EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Find my EA Messenger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tenic.EA-Center-Messenger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCBB04561E0A415C00D82EFE /* Build configuration list for PBXProject "EA Center Messenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBB04661E0A415C00D82EFE /* Debug */,
+				CCBB04671E0A415C00D82EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCBB04681E0A415C00D82EFE /* Build configuration list for PBXNativeTarget "EA Center Messenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBB04691E0A415C00D82EFE /* Debug */,
+				CCBB046A1E0A415C00D82EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCBB04531E0A415C00D82EFE /* Project object */;
+}

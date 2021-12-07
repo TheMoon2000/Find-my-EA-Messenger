@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9532"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Aib-MM-PyR" customClass="Comment" customModule="Find_my_EA_Messenger" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="617" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="282-5e-fbL" customClass="AutoResizingTextField" customModule="Find_my_EA_Messenger" customModuleProvider="target">
+                    <rect key="frame" x="183" y="13" width="417" height="57"/>
+                    <textFieldCell key="cell" truncatesLastVisibleLine="YES" selectable="YES" sendsActionOnEndEditing="YES" title="Multiline Label Second line Third" id="8Am-VM-Yoe">
+                        <font key="font" size="13" name="HelveticaNeue"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <box horizontalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="Vd7-TI-IpM">
+                    <rect key="frame" x="170" y="16" width="5" height="47"/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+                <box verticalHuggingPriority="750" alphaValue="0.59999999999999998" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="uJs-GT-iip">
+                    <rect key="frame" x="54" y="-2" width="509" height="5"/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="iHt-Tu-gwb">
+                    <rect key="frame" x="18" y="38" width="147" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="143" id="MVC-f5-hBv"/>
+                    </constraints>
+                    <textFieldCell key="cell" lineBreakMode="truncatingMiddle" sendsActionOnEndEditing="YES" alignment="center" title="Jerry Shan (11FC):" id="ZZu-Tu-gk5">
+                        <font key="font" size="13.300000190734863" name="AvenirNext-Medium"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Xs1-JG-FcK">
+                    <rect key="frame" x="18" y="23" width="144" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="140" id="JIS-DB-9Sn"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="2017/1/12, 10:30 PM" id="8iz-Am-h26">
+                        <font key="font" size="10" name="AvenirNext-Regular"/>
+                        <color key="textColor" red="0.3876201923" green="0.3876201923" blue="0.3876201923" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="282-5e-fbL" secondAttribute="trailing" constant="19" id="46u-uy-4zA"/>
+                <constraint firstItem="iHt-Tu-gwb" firstAttribute="centerY" secondItem="Aib-MM-PyR" secondAttribute="centerY" constant="-9" id="7l8-c6-chv"/>
+                <constraint firstItem="Vd7-TI-IpM" firstAttribute="leading" secondItem="iHt-Tu-gwb" secondAttribute="trailing" constant="9" id="CMs-sJ-V3p"/>
+                <constraint firstAttribute="bottom" secondItem="uJs-GT-iip" secondAttribute="bottom" id="OVe-HI-OoM"/>
+                <constraint firstItem="Vd7-TI-IpM" firstAttribute="top" secondItem="Aib-MM-PyR" secondAttribute="top" constant="17" id="QJB-eK-Cih"/>
+                <constraint firstItem="iHt-Tu-gwb" firstAttribute="leading" secondItem="Aib-MM-PyR" secondAttribute="leading" constant="20" id="Qfn-1I-GOH"/>
+                <constraint firstItem="Xs1-JG-FcK" firstAttribute="centerY" secondItem="Aib-MM-PyR" secondAttribute="centerY" constant="8" id="Vxn-XX-sfj"/>
+                <constraint firstItem="uJs-GT-iip" firstAttribute="leading" secondItem="Aib-MM-PyR" secondAttribute="leading" constant="54" id="a6e-qx-OqQ"/>
+                <constraint firstItem="uJs-GT-iip" firstAttribute="top" secondItem="282-5e-fbL" secondAttribute="bottom" constant="12" id="aVk-nJ-xM9"/>
+                <constraint firstItem="282-5e-fbL" firstAttribute="leading" secondItem="Aib-MM-PyR" secondAttribute="leading" constant="185" id="bKo-te-5y3"/>
+                <constraint firstAttribute="trailing" secondItem="uJs-GT-iip" secondAttribute="trailing" constant="54" id="dX7-sm-aHV"/>
+                <constraint firstAttribute="bottom" secondItem="Vd7-TI-IpM" secondAttribute="bottom" constant="16" id="l38-Dc-qd5"/>
+                <constraint firstItem="Xs1-JG-FcK" firstAttribute="leading" secondItem="Aib-MM-PyR" secondAttribute="leading" constant="20" id="vs3-nP-vLG"/>
+            </constraints>
+            <connections>
+                <outlet property="commentDate" destination="Xs1-JG-FcK" id="z4i-CH-a9q"/>
+                <outlet property="userComment" destination="282-5e-fbL" id="1Ps-9b-iz0"/>
+                <outlet property="username" destination="iHt-Tu-gwb" id="QHL-Dz-j4E"/>
+            </connections>
+            <point key="canvasLocation" x="361.5" y="351"/>
+        </customView>
+    </objects>
+</document>
